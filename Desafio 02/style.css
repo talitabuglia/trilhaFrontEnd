@@ -1,10 +1,32 @@
+h1{
+    text-align: center;
+    font-weight: 880;
+    font-family:'Arial Narrow';
+}
+
 .black{
     border: 1px solid white;
     background-color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .gray{
     border: 1px solid white;
     background-color: gray;
+    width: 50px;
+    height: 50px;
+}
 
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 0px;
 }
