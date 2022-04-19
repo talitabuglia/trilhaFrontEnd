@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Questions</title>
+</head>
+<body>
+    <header>
+        <h1>Grid Layout</h1>
+    </header>
+
+    <p><b>a) Explique o que é o Grid Layout</b></p>
+    <p>Grid Layout é uma tecnologia do CSS que permite configurar o layout em duas dimensões (linhas e colunas), essa junção forma uma grade, o que dá nome a esse sistema.</p>
+
+    <p><b>b) Cite e dê exemplos das propriedades do Grid Container?</b></p>
+    <p>Grid container é a tag que envolve os itens do Grid, ao indicar display: grid, essa tag passa a ser um Grid Container.</p>
+    <ul>
+        <li>display - Define o elemento como um grid container.</li>
+        <li>grid-template-columns - Define quantas colunas no total serão criadas no grid.</li>
+        <li>grid-template-rows - Define quantas linhas no total serão criadad no grid.</li>
+        <li>grid-template-areas - Define áreas específicas no grid.</li>
+        <li>grid-template - Atalho para definir o grid-template-columns, grid-template-rows e grid-template-areas.</li>
+        <li>gap - Define a distancia entre os elementos do grid.</li>
+        <li>grid-auto-columns - Define o tamanho das colunas do grid implícito (gerado automaticamente, quando algum elemento é posicionado em uma coluna que não foi definida).</li>
+        <li>grid-auto-rows - Define o tamanho das linhas do grid implícito (gerado automaticamente, quando algum elemento é posicionado em uma linha que não foi definida).</li>
+        <li>grid-auto-flow - Define o fluxo dos itens no grid. Se eles vão automaticamente gerar novas linhas ou colunas.</li>
+        <li>grid - Atalho geral para definir qual o tipo de grid.</li>
+        <li>justify-content - Justifica os itens do grid em relação ao eixo x (horizontal).</li>
+        <li>align-content - Alinha os itens do grid em relação ao eixo y (vertical).</li>
+        <li>justify-items - Justifica o conteúdo dos itens do grid em relação ao eixo x (horizontal). Justifica em relação a célula.</li>
+        <li>align-items - Alinha o conteúdo dos itens do grid em relação ao eixo y (vertical). Alinha em relação a célula.</li>
+    </ul>
+
+    <p><b>c) Cite e dê exemplos das propriedades do Grid Item?</b></p>
+    <p>Grid Item são os filhos do Grid Container. Pode ser explicito ou implícito, explicito é quando você define ele explicitamente no container e implícito é quando ele é criado automaticamente para preencher o conteúdo no grid.</p>
+    <ul>
+        <li>grid-column - Define quais colunas serão ocupadas pelo grid item. É possível definir uma linha de início e final, assim o item irá ocupar múltiplas colunas.</li>
+        <li>grid-row - Define quais linhas serão ocupadas pelo grid item.</li>
+        <li>grid-area - Define a área do item do grid. É um atalho para grid-row-start, grid-column-start, grid-row-end, grid-column-end.</li>
+        <li>justify-self - Justifica o item do grid em relação ao eixo x (horizontal). Justifica em relação a célula.</li>
+        <li>align-self - Justifica o item do grid em relação ao eixo y (vertical). Alinha em relação a célula.</li>
+    </ul>
+
+    <p><b>d) O que é a unidade fr?</b></p>
+    <p>É uma unidade fracional, instrui a uma área a ocupar alguma fração do espaço total disponível.</p>
+
+    <p><b>e) O que é a notação repeat?</b></p>
+    <p>Se sua definição contém partes repetidas, você pode usar a notação repeat() para simplificar as coisas. <br>
+        <b>Ex. </b>  grid-template-columns: 20px [col-start] 20px [col-start] 20px [col-start]; <br>
+        <b>Usando repeat(): </b>  grid-template-columns: repeat(3, 20px [col-start]);
+    </p>
+
+    <p><b>f) O que são as linhas do Grid?</b></p>
+    <p>São as linhas que formam o grid. Diferentes das rows, que traduzindo também
+    significam linhas, porém são propriedades distintas.
+    Por exemplo, uma row possuí duas linhas, uma no inicio e uma no final.</p>
+
+    <p><b>g) O que é uma célula no Grid?</b></p>
+    <p>É a menor unidade em um grid, como se fosse uma célula de tabela, uma vez que o grid é definido como pai os itens filhos serão organizados cada um em uma célula do grid definido.</p>
+
+    <p><b>h) O que são áreas do Grid?</b></p>
+    <p>Uma ou mais células que compõem a área retangular do grid.</p>
+
+   
+
+
+</body>
+</html>
