@@ -1,0 +1,73 @@
+body {
+    background-color: #fbbf00;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;   
+    box-shadow: 10px 10px 10px #e2b944;
+
+}
+
+/*#grid {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 70vw;
+    height: 500px;
+}
+*/
+
+#img  {
+    display: flex;
+    padding-left: 500px;
+    position: absolute;
+}
+#white {
+    background-color: white;
+    padding: 50px 50px;
+}
+
+#blue {
+    background-color: #7cd0da;
+    padding: 50px 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;   
+    justify-content:flex-end;
+    position: absolute;
+    padding-left: 750px;
+}
+
+nav a {
+    padding-left: 10px;
+    color: black;
+}
+
+li a:link,
+li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+form {
+    display: grid;
+    row-gap: 12px;
+}
+
+input {
+    border-radius: 50px;
+    border: none;
+    width: 300px;
+    height: 30px;
+}
