@@ -12,40 +12,47 @@
 <body>
     <header>
         <nav>
-            <a href="#">YOURLOGO</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">profile</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div id="container">
+               <a href="#"><img src="Imagens/yourlogo 2.png" alt="logo"></a>
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">profile</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button id="hamb"> 
+                    <img src="Imagens/imagem menu.png" alt="menu hamburguer">
+                </button>
+            </div>
         </nav>
     </header>
     <main>
         <div id="grid">
-            <img id="img" src="imagem freepik 3.png" alt="logo freepik">
             <div id="blue">
                 <h1>Contact us</h1>
-                <h4>Lorem, ipsum dolor sit amet consectetur adiLorem ipsum dolor </h4>
-                <form>
+                <p>Lorem, ipsum dolor sit amet consectetur adiLorem ipsum dolor </p>
+                <form action="#">
                     <div>
                         <input type="email" name="email" id="email" placeholder="Your mail">
                     </div>
                     <div>
                         <input type="text" name="text" id="text" placeholder="Your Text">
                     </div>
+                    <div>
+                        <button id="submit" type="submit"><a href="#">Sign up</a></button>
+                    </div>
                 </form>
             </div>
             <div id="white">
-                
-
+                <img id="img" src="Imagens/imagem freepik.png" alt="imagem freepik">
             </div>
         </div>
     </main>
-    </div>
     <footer>
-        <a href="#"><img src="logo freepik 2.png" alt="logo freepik"></a>
+        <a href="#"><img src="Imagens/logo freepik.png" alt="logo freepik"></a>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Contactus.js"></script>
 </body>
 
 </html>
